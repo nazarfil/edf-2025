@@ -37,4 +37,4 @@ rosdep update
 
 echo "ROS 2 + camera + colcon successfully installed."
 echo "Reboot if you haven’t already, and create your workspace next:"
-echo " mkdir -p ~/ros2_ws/src && cd ~/ros2_ws && colcon build"
+echo "mkdir -p ~/ros2_ws/src && cd ~/ros2_ws && colcon build"

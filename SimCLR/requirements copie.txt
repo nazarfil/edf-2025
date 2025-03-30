@@ -1,0 +1,15 @@
+numpy==1.26
+pandas
+scikit-image
+torch
+torchvision
+tensorboard
+onnx==1.16.0
+onnxruntime
+tqdm
+PyYAML
+opencv-python==4.11.0.86
+onnx-simplifier==0.4.36
+onnxsim==0.4.36
+pillow==11.1.0
+ultralytics==8.3.92

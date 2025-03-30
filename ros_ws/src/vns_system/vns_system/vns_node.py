@@ -26,7 +26,7 @@ class VNSNode(Node):
         pose_msg.header.frame_id = "map"
 
         # Mock position: random drift around a base point
-        base_lat, base_lon = 50.8503, 4.3517  # Brussels GPS coords (for example)
+        base_lat, base_lon = 50.8503, 4.3517  
         pose_msg.pose.position.x = base_lat + random.uniform(-0.0005, 0.0005)
         pose_msg.pose.position.y = base_lon + random.uniform(-0.0005, 0.0005)
         pose_msg.pose.position.z = 100.0  # Constant altitude
